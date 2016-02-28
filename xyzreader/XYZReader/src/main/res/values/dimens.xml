@@ -1,12 +1,30 @@
 <resources>
+
+    <dimen name="appbarlayout_height">112dp</dimen>
+
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+    <dimen name="dynamic_height_network_imageview">100dp</dimen>
+
+    <dimen name="elevation">2dp</dimen>
 
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_width">56dp</dimen>
+    <dimen name="fab_height">56dp</dimen>
 
+    <dimen name="imagebutton_width">56dp</dimen>
+    <dimen name="image_height">144dp</dimen>
+
+    <dimen name="recyclerview_padding_top">116dp</dimen>
+    <dimen name="recyclerview_padding_bottom">28dp</dimen>
+
+    <dimen name="textview_padding">16dp</dimen>
+    <dimen name="textview_padding_bottom">4dp</dimen>
     <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="view_height">112dp</dimen>
 </resources>

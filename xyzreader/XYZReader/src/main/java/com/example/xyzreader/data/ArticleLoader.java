@@ -19,7 +19,6 @@ public class ArticleLoader extends CursorLoader {
     private ArticleLoader(Context context, Uri uri) {
         super(context, uri, Query.PROJECTION, null, null, ItemsContract.Items.DEFAULT_SORT);
     }
-
     public interface Query {
         String[] PROJECTION = {
                 ItemsContract.Items._ID,

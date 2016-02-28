@@ -60,6 +60,9 @@
     <color name="fab_stroke_end_outer_color">#0F000000</color>
     <color name="fab_stroke_top_inner_color">#1AFFFFFF</color>
     <color name="fab_stroke_top_outer_color">#2EFFFFFF</color>
+    <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="grayish">#333333</color>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
@@ -115,6 +118,7 @@
     <eat-comment/>
     <color name="text_primary">#DE000000</color>
     <color name="text_secondary">#8A000000</color>
+    <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -220,6 +224,9 @@
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="appbar_elevation">4dp</dimen>
+    <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="appbarlayout_height">112dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
@@ -251,6 +258,10 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="dynamic_height_network_imageview">100dp</dimen>
+    <dimen name="elevation">2dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_border_width">0.5dp</dimen>
@@ -258,6 +269,7 @@
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_height">56dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
@@ -265,6 +277,11 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_translation_z_pressed">6dp</dimen>
+    <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="fab_width">56dp</dimen>
+    <dimen name="image_height">144dp</dimen>
+    <dimen name="imagebutton_width">56dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="list_side_margin">4dp</dimen>
@@ -283,6 +300,10 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="recyclerview_padding_bottom">28dp</dimen>
+    <dimen name="recyclerview_padding_top">116dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="snackbar_action_inline_max_width">128dp</dimen>
@@ -299,7 +320,10 @@
     <dimen name="tab_min_width">72dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
+    <dimen name="textview_padding">16dp</dimen>
+    <dimen name="textview_padding_bottom">4dp</dimen>
     <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="view_height">112dp</dimen>
     <!-- From: file:/C:/as/as_audacity/Project%205/xyzreader_project/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
